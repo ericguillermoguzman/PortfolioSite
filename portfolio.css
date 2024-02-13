@@ -1,0 +1,35 @@
+.portfolio{
+    height: 1000px;
+    padding-top: 5vh;   
+}
+
+.portfolio_container{
+    text-align: center;
+}
+
+.portfolio_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3vh;
+}
+
+.portfolio_card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+/* ================== Media Queries (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px){
+  .portfolio{
+    min-height: 150vh;
+  }
+}
+  
+  /* ================== Media Queries (SMALL DEVICES) ========================== */
+  @media screen and (max-width: 600px){
+   .portfolio{
+    min-height: 220vh;
+   }
+}

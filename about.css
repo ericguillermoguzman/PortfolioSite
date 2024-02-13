@@ -1,0 +1,41 @@
+.about{
+    padding-top: 5vh;
+    height: 600px;
+}
+.about_container{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about_card {
+    padding: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divide {
+    font-size: 3vh;
+    padding: .3rem;
+}
+
+/* ================== Media Queries (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px){
+  .about{
+    min-height: 120vh;
+  } 
+  .divide{
+    font-size: 2rem; 
+   }
+}
+
+/* ================== Media Queries (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px){
+  .about{
+    min-height: 130vh;
+  } 
+  .divide{
+    font-size: 1.2rem;
+  }
+}
